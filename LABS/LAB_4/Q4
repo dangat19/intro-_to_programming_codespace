@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int fahrenheit;
+
+    cout << "Enter temperature in Fahrenheit: ";
+    cin >> fahrenheit;
+
+    // static_cast<float>(5) fixes the logic error:
+    // Without the cast, 5/9 performs integer division and evaluates to 0,
+    // making every conversion result in 0. Casting 5 to float forces
+    // floating-point division, giving the correct decimal result (0.5556).
+    float celsius = (fahrenheit - 32) * (static_cast<float>(5) / 9);
+
+    cout << fahrenheit << " Fahrenheit = " << celsius << " Celsius" << endl;
+
+    return 0;
+}
