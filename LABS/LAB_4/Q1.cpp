@@ -16,4 +16,8 @@ int main() {
     cout << "\nWelcome, " << fullName << "! Your Student ID is: " << studentID << endl;
 
     return 0;
+<<<<<<< HEAD
 }       
+=======
+}
+>>>>>>> f2277ae1e40545fbcdb27234eca65082f1cc2ee1
