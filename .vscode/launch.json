@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/School/Desktop/2.1/ITP/intro-_to_programming_codespace/PRACTISE",
-      "program": "c:/Users/School/Desktop/2.1/ITP/intro-_to_programming_codespace/PRACTISE/build/Debug/outDebug",
+      "cwd": "c:/Users/School/Desktop/2.1/ITP/intro-_to_programming_codespace/LABS/LAB_7",
+      "program": "c:/Users/School/Desktop/2.1/ITP/intro-_to_programming_codespace/LABS/LAB_7/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
